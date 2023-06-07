@@ -18,6 +18,8 @@ body {
 }
 a {
 	text-decoration: none;
+	@include transition(all 0.3s ease-in-out 0s);
+
 	&:link {
 		@include theme(color, $color-primary, $color-tan);
 	}

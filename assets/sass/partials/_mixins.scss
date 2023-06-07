@@ -9,3 +9,10 @@
 		#{$property}: $dark-color;
 	}
 }
+
+@mixin transition($data...) {
+	-webkit-transition: $data;
+	-moz-transition: $data;
+	-o-transition: $data;
+	transition: $data;
+}
